@@ -1,4 +1,4 @@
-# Import necessary libraries
+# libraries
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -19,8 +19,8 @@ df = pd.DataFrame(data)
 print(df.head())
 
 # Features (X) and Target (y)
-X = df[['SquareFootage']]  # Feature(s)
-y = df['Price']            # Target variable
+X = df[['SquareFootage']]  
+y = df['Price']           
 
 # Split data into 80% training and 20% testing
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
