@@ -9,3 +9,4 @@ env/
 
 # macOS files
 .DS_Store
+venv/
